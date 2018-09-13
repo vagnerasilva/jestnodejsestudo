@@ -1,0 +1,19 @@
+{
+  "name": "novoteste",
+  "version": "1.0.0",
+  "description": "exemplo de teste usando jest",
+  "main": "index.js",
+  "scripts": {
+    "testwatch": "jest --watchAll --logHeapUsage --coverage"
+  },
+  "author": "vagner",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-cli": "^23.6.0"
+  },
+  "jest":{
+    "testEnviroment":"node",
+    "coverageReporters":["lcov"],
+    "coverageDirectory":"./resultado"
+  }
+}
